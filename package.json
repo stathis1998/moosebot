@@ -4,7 +4,7 @@
   "description": "MooseBot is a Discord bot that provides a variety of commands for various purposes.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "Stathis 'Moose' Stathopoulos",
@@ -13,5 +13,8 @@
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
