@@ -1,0 +1,12 @@
+{
+  "name": "moosebot",
+  "version": "1.0.0",
+  "description": "MooseBot is a Discord bot that provides a variety of commands for various purposes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Stathis 'Moose' Stathopoulos",
+  "license": "ISC"
+}
