@@ -8,5 +8,10 @@
   },
   "keywords": [],
   "author": "Stathis 'Moose' Stathopoulos",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0"
+  },
+  "type": "module"
 }
