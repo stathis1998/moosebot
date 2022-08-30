@@ -2,19 +2,20 @@
   "name": "moosebot",
   "version": "1.0.0",
   "description": "MooseBot is a Discord bot that provides a variety of commands for various purposes.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.ts"
   },
   "keywords": [],
   "author": "Stathis 'Moose' Stathopoulos",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0"
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.0",
+    "openai": "^3.0.0"
   },
-  "type": "module",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.9.1"
   }
 }
